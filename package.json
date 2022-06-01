@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "ELEVENTY_ENV=production eleventy",
+    "build": "npx @11ty/eleventy",
     "dev": "ELEVENTY_ENV=development eleventy --serve & npm run sass:watch",
     "sass:watch": "sass --watch src/assets/styles/sass/style.scss:src/assets/styles/style.css"
   },
